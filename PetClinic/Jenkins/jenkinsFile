@@ -54,7 +54,7 @@ node {
    stage('Docker image push to dockerhub'){
    script {
    docker.withRegistry( '', 'docker') {
-      sh 'docker push dockersibu/petclinic:$BUILD_NUMBER'
+      sh 'docker push niharhub/petclinic:$BUILD_NUMBER'
     }
    }
   }
