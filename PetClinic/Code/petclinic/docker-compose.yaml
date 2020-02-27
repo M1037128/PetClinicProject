@@ -1,4 +1,4 @@
-
+version: '2'
 services:
   petclinic:
     image: niharhub/petclinic:$BUILD_NUMBER
